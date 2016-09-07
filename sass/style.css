@@ -1,0 +1,347 @@
+h1, h2, h3, h4, h5 {
+  font-family: 'Raleway'; }
+
+body {
+  position: relative; }
+
+.centered {
+  text-align: center; }
+
+.sub-header {
+  font-family: 'Raleway' , sans-serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-shadow: 1px 2px 3px rgba(255, 255, 255, 0.67);
+  margin: 1em 0rem auto;
+  color: #000;
+  padding-top: 3rem; }
+
+.social-grid {
+  text-align: right;
+  letter-spacing: 5px;
+  margin: 14px auto;
+  font-size: 1.8em;
+  color: #fff; }
+  .social-grid span {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: #2A363B;
+    text-align: center; }
+    .social-grid span:hover {
+      background: transparent;
+      color: #2A363B;
+      border: 2px solid;
+      transition: background ease 1s; }
+  .social-grid i {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-left: 6px; }
+
+#header {
+  min-height: 60px; }
+
+.affix {
+  top: 0;
+  width: 100%;
+  z-index: 9999 !important;
+  background: #2A363B; }
+  .affix .nav > li > a {
+    color: #d4d4d4;
+    text-shadow: none; }
+
+.affix ~ .container-fluid {
+  position: relative;
+  top: 50px; }
+
+.navbar {
+  margin-bottom: 0; }
+
+.nav > li > a {
+  font-weight: 700;
+  font-family: "Open Sans";
+  font-size: 1.1em;
+  text-transform: uppercase;
+  color: #2A363B; }
+
+.nav > li > a:focus,
+.nav > li > a:hover {
+  background: transparent; }
+
+#about-section {
+  min-height: 600px;
+  background-image: url("../img/about-bg.jpg");
+  background-size: cover; }
+
+#about-section__content--right {
+  margin: 6rem auto;
+  font-size: 1.6rem;
+  padding: 6rem;
+  background: rgba(255, 255, 255, 0.7); }
+
+.left-side {
+  float: left; }
+
+.right-side {
+  float: right; }
+
+.fancy-text {
+  font-family: "Raleway";
+  font-size: 4em;
+  text-transform: initial;
+  color: #333;
+  background: #fff;
+  display: inline;
+  line-height: 1.5em;
+  padding: 0 5px; }
+
+span.spaced {
+  padding: 2px; }
+
+.education-section__wrapper {
+  min-height: 400px; }
+
+.education__title {
+  font-family: "Raleway";
+  font-size: 3em;
+  text-transform: initial;
+  color: #333;
+  font-weight: 700;
+  border-bottom: 3px solid #d26a00;
+  line-height: 0;
+  padding: 0px;
+  margin-top: 5rem; }
+  .education__title span {
+    background: #fff;
+    padding: 0 15px; }
+
+.portfolio-section__wrapper {
+  min-height: 700px;
+  background-image: url("../img/sg-nightlight.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 5% auto;
+  margin-bottom: 0;
+  position: relative; }
+  .portfolio-section__wrapper .portfolio-section__content {
+    position: relative; }
+  .portfolio-section__wrapper .portfolio-section__title {
+    font-family: "Raleway";
+    font-size: 3em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+    margin-top: 2%;
+    border-bottom: 2px solid #99B898; }
+  .portfolio-section__wrapper .portfolio-section__gallery {
+    width: 90vw;
+    margin: 40px auto; }
+    .portfolio-section__wrapper .portfolio-section__gallery .item {
+      width: 400px;
+      height: 300px;
+      position: relative; }
+    .portfolio-section__wrapper .portfolio-section__gallery img {
+      width: 100%;
+      height: auto;
+      object-fit: cover; }
+    .portfolio-section__wrapper .portfolio-section__gallery .fancy-hover {
+      position: absolute;
+      height: 247px;
+      width: 370px;
+      top: 0px;
+      left: 15px;
+      opacity: 0;
+      background-color: #fff;
+      text-align: center;
+      padding: 6% 0;
+      border: 7px solid rgba(0, 0, 0, 0.68); }
+      .portfolio-section__wrapper .portfolio-section__gallery .fancy-hover .fa {
+        font-size: 7em;
+        padding: 12% 0; }
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.6; }
+
+.hidden {
+  opacity: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
+#myModal {
+  background: #fff;
+  z-index: 999999; }
+  #myModal .modal-dialog {
+    background: transparent !important; }
+    @media (min-width: 768px) {
+      #myModal .modal-dialog {
+        width: 90% !important; } }
+  #myModal .modal-header {
+    border-bottom: none; }
+    #myModal .modal-header .close {
+      font-size: 70px;
+      line-height: 0.2;
+      font-weight: 100; }
+      #myModal .modal-header .close:hover {
+        color: #d80404; }
+  #myModal .modal-content {
+    background: transparent;
+    border-color: transparent;
+    box-shadow: none; }
+  #myModal .modal-footer {
+    border-top: 4px solid #FFB47C; }
+
+.imgTitle {
+  font-size: 6rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #2A363B; }
+
+.imgText {
+  font-size: 1.5em;
+  opacity: 0.6; }
+
+button.btn.exit {
+  width: 10%;
+  padding: 14px;
+  border-radius: 0;
+  background: transparent;
+  border: 3px solid rgba(118, 116, 116, 0.75);
+  text-transform: uppercase;
+  font-weight: 600;
+  opacity: 0.6;
+  font-size: 17px; }
+  button.btn.exit:hover {
+    opacity: 0.8; }
+
+.experience-section__wrapper {
+  min-height: 600px;
+  background: #2A363B; }
+
+.experience-section__title {
+  position: relative;
+  background-color: #d6656a;
+  padding: 0 5rem;
+  margin-bottom: 5rem;
+  max-height: 9rem; }
+  .experience-section__title .fancy-quote {
+    font-family: 'Bungee Shade';
+    font-size: 9rem; }
+  .experience-section__title .fancy-heading {
+    font-size: 8em;
+    font-family: 'Limelight', "Helvetica Neue";
+    margin-top: 5px;
+    position: absolute;
+    color: #fdfdfd; }
+
+.experience-section__text {
+  color: #fff;
+  margin-top: 2%;
+  font-size: 1.4em;
+  text-align: center; }
+
+.quote-snippet {
+  color: #ece7bf;
+  text-align: right;
+  font-size: 19px;
+  font-family: 'Satisfy', cursive;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.quote-author {
+  font-family: 'Open Sans';
+  font-size: 14px; }
+
+.icon-row {
+  color: #fff;
+  overflow: hidden;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 3em;
+  text-align: center;
+  opacity: 0; }
+
+.cursor {
+  color: #d26a00;
+  animation: blink 1s infinite; }
+
+.blinker {
+  color: #d26a00;
+  font-size: 1.7em; }
+
+@keyframes type {
+  0% {
+    width: 0; }
+  50% {
+    width: 50; }
+  100% {
+    width: 100; } }
+@keyframes blink {
+  to {
+    opacity: .0; } }
+#contact-section {
+  background-image: url(../img/contact-bg.jpg);
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.contact-section__wrapper .contact-section__title {
+  font-family: "Raleway";
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: #424040;
+  text-align: center;
+  text-shadow: 1px 0px 1px #adadad;
+  padding-top: 10px; }
+.contact-section__wrapper .contact-section__content--left {
+  margin-top: 5%;
+  font-size: 1.6em;
+  color: #85b4c7;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8); }
+  .contact-section__wrapper .contact-section__content--left h1 {
+    color: #fff;
+    line-height: 5rem; }
+.contact-section__wrapper .contact-section__content--right {
+  margin-top: 6%;
+  text-align: center; }
+  .contact-section__wrapper .contact-section__content--right label {
+    color: #ffffff;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 1px rgba(51, 51, 51, 0.85); }
+  .contact-section__wrapper .contact-section__content--right .form-control {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 0;
+    border: 2px solid rgba(189, 189, 189, 0.75);
+    font-size: 16px;
+    color: #676767; }
+  .contact-section__wrapper .contact-section__content--right input.form-control {
+    height: 43px !important; }
+  .contact-section__wrapper .contact-section__content--right .help-block {
+    color: #bdbdbd;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.82); }
+  .contact-section__wrapper .contact-section__content--right button {
+    border-radius: 0 !important;
+    background: rgba(214, 102, 108, 0.74);
+    border: 1px solid #d7d3cd !important;
+    color: rgba(255, 255, 255, 0.69);
+    width: 80%; }
+
+footer {
+  min-height: 35px;
+  background: #2A363B; }
+
+/*# sourceMappingURL=style.css.map */
