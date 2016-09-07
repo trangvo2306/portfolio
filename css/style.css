@@ -369,8 +369,13 @@ footer {
     margin-top: 12px; } }
 
 @media (max-width: 375px) {
+  .about-section__wrapper .fancy-text {
+    font-size: 2.5em; }
+  .cd-horizontal-timeline .events-content .timeline-text {
+    padding: 0; }
   .cd-horizontal-timeline .events-content .timeline-img img {
-    max-width: 200px !important; }
+    max-width: 200px !important;
+    padding: 0; }
   .portfolio-section__wrapper .portfolio-section__gallery .item {
     width: 340px;
     height: 250px; }
@@ -385,4 +390,6 @@ footer {
   .icon-row {
     font-size: 2em; }
   .blinker {
-    font-size: 1.2em; } }
+    font-size: 1.2em; }
+  .contact-section__wrapper .contact-section__content--left h1 {
+    line-height: 4rem; } }
