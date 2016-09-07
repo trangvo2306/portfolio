@@ -344,4 +344,46 @@ footer {
   min-height: 35px;
   background: #2A363B; }
 
+/***************Media Queries*************/
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 32px;
+  height: 4px;
+  border-radius: 1px;
+  background-color: rgba(255, 255, 255, 0.95) !important; }
+
+@media (max-width: 1024px) {
+  .portfolio-section__wrapper .portfolio-section__gallery .item {
+    width: 306px;
+    height: 270px; } }
+@media (max-width: 768px) {
+  .portfolio-section__wrapper .portfolio-section__gallery .item {
+    width: 340px; }
+
+  .experience-section__title .fancy-heading {
+    font-size: 7em;
+    margin-top: 12px; } }
+@media (max-width: 375px) {
+  .cd-horizontal-timeline .events-content .timeline-img img {
+    max-width: 200px !important; }
+
+  .portfolio-section__wrapper .portfolio-section__gallery .item {
+    width: 340px;
+    height: 250px; }
+
+  .experience-section__title {
+    padding: 0 1em; }
+    .experience-section__title .fancy-quote {
+      font-size: 5em; }
+    .experience-section__title .fancy-heading {
+      font-size: 4em;
+      margin-top: 46px;
+      left: 38px; }
+
+  .icon-row {
+    font-size: 2em; }
+
+  .blinker {
+    font-size: 1.2em; } }
+
 /*# sourceMappingURL=style.css.map */
