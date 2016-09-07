@@ -1,9 +1,6 @@
-AngularJS Tutorial 1
-====================
+Trang Vo
 
-author: [Nick Kaye](http://www.nickkaye.com)
+Porfolio Page Design
 
-**NOTE:  We’re referencing all of our vendor dependencies (e.g. Bootstrap, jQuery, Angular) at outside URLs.   Therefore, it is necessary to host our site while we’re working on it.  Be sure we are viewing it in a browser with http:// -- not file://**
+In Construction....
 
-View the [live demo](http://airpair.github.io/demos/2014/09/T0021-airpair-angularjs-tutorial).
-"# porfolio" 
