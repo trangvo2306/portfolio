@@ -86,7 +86,7 @@ body{
 #about-section{
   min-height: 600px;
   background-image: url("../img/about-bg.jpg");
-  background-size: cover;
+  //background-size: cover;
 }
 #about-section__content--right {
   margin: 6rem auto;
@@ -418,9 +418,13 @@ footer{
     .fancy-text{
       font-size: 2.5em;
     }
+    #about-section__content--right{
+      margin: 2rem auto;
+      padding: 3rem;
+    }
   }
   .cd-horizontal-timeline .events-content .timeline-text{
-    padding: 0;
+    padding: 0 !important;
   }
   .cd-horizontal-timeline .events-content .timeline-img img {
     max-width: 200px !important;
