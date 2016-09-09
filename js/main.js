@@ -2,23 +2,16 @@ $(function() {
 //loading html parts
   $("#before-header").load("./partials/before-header.html");
   $("#header").load("./templates/header.html");
-  //$("#body").load("./partials/body.html");
   $("#about-section").load("./partials/about.html");
-  console.log("1");
   $("#education-section").load("./partials/education.html");
-  console.log("2");
   $("#portfolio-section").load("./partials/portfolio.html");
-  console.log("3");
   $("#experience-section").load("./partials/experience.html");
-  console.log("4");
   $("#contact-section").load("./partials/contact.html");
-  console.log("5");
   $("#timeline").load("./partials/timeline.html");
-  console.log("6");
   $("#footer").load("./templates/footer.html");
 
   $(window).scroll(function () {
-    if ($(window).scrollTop() > ($('.experience-section__wrapper').position().top) - 200) {
+    if ($(window).scrollTop() > $('.experience-section__wrapper').position().top) {
       $('.icon-row').css({
         'opacity': 1,
         'animation': 'type 5s steps(90,end)'
