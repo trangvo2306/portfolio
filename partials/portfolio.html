@@ -137,22 +137,22 @@
 </div>
 
 <script type="text/javascript">
-    jQuery(document).ready(function(){
-        $("#portfolio-section__gallery").ready(function() {
-            $("#portfolio-section .item").hover(
-                    function () {
-                        $(this).find('.fancy-hover').removeClass("fadeOut").addClass("fadeIn");
-                    }, function () {
-                        $(this).find('.fancy-hover').removeClass("fadeIn").addClass("fadeOut");
-                    }
-            );
-        });
+    $(document).ready(function(){
+         $("#portfolio-section__gallery").ready(function() {
+         $("#portfolio-section .item").hover(
+         function () {
+         $(this).find('.fancy-hover').removeClass("fadeOut").addClass("fadeIn");
+         }, function () {
+         $(this).find('.fancy-hover').removeClass("fadeIn").addClass("fadeOut");
+         }
+         );
+         });
 
-        $('[id^=myModal]').on('show.bs.modal', function(e){
-            var dataTarget = $(e.relatedTarget);
-            var content = '<div class="row">' + dataTarget.find("div").attr('id', 'thisContent').html() + '</div>';
-            var modal = $(this);
-            modal.find('.modal-body').html(content);
-        });
-    });
+         $('[id^=myModal]').on('show.bs.modal', function(e){
+         var dataTarget = $(e.relatedTarget);
+         var content = '<div class="row">' + dataTarget.find("div").attr('id', 'thisContent').html() + '</div>';
+         var modal = $(this);
+         modal.find('.modal-body').html(content);
+         });
+     });
 </script>

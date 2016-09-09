@@ -19,6 +19,7 @@ $(function() {
     }
   });
 
+  
   // $.fn.goValidate = function () {
   //   var $form = this,
   //       $inputs = $form.find('input:text'),
@@ -116,5 +117,7 @@ $(function() {
   //
   // $('form').goValidate();
 })
+
+
 
 
