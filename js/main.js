@@ -11,7 +11,7 @@ $(function() {
   $("#footer").load("./templates/footer.html");
 
   $(window).scroll(function () {
-    if ($(window).scrollTop() > $('.experience-section__wrapper').position().top) {
+    if ($('.experience-section__wrapper').position().top !== 'undefined' && $(window).scrollTop() > $('.experience-section__wrapper').position().top) {
       $('.icon-row').css({
         'opacity': 1,
         'animation': 'type 5s steps(90,end)'
@@ -19,7 +19,24 @@ $(function() {
     }
   });
 
-  
+  $(document).ready(function(){
+    $("#portfolio-section__gallery").ready(function() {
+      $("#portfolio-section .item").hover(
+          function () {
+            $(this).find('.fancy-hover').removeClass("fadeOut").addClass("fadeIn");
+          }, function () {
+            $(this).find('.fancy-hover').removeClass("fadeIn").addClass("fadeOut");
+          }
+      );
+    });
+
+    $('[id^=myModal]').on('show.bs.modal', function(e){
+      var dataTarget = $(e.relatedTarget);
+      var content = '<div class="row">' + dataTarget.find("div").attr('id', 'thisContent').html() + '</div>';
+      var modal = $(this);
+      modal.find('.modal-body').html(content);
+    });
+  });
   // $.fn.goValidate = function () {
   //   var $form = this,
   //       $inputs = $form.find('input:text'),
