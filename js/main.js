@@ -18,7 +18,7 @@ $(function() {
   $("#footer").load("./templates/footer.html");
 
   $(window).scroll(function () {
-    if ($(window).scrollTop() > $('.experience-section__wrapper').position().top) {
+    if ($(window).scrollTop() > ($('.experience-section__wrapper').position().top) - 200) {
       $('.icon-row').css({
         'opacity': 1,
         'animation': 'type 5s steps(90,end)'
