@@ -151,12 +151,17 @@ span.spaced{
   }
 
   .portfolio-section__gallery{
-    width: 90vw;
-    margin: 40px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+
     .item{
       width: 400px;
       height: 300px;
-      position: relative;
+      //position: relative;
     }
     img{
       width: 100%;
@@ -230,19 +235,24 @@ span.spaced{
     border-top: 4px solid $light-brand-color;
   }
 }
-
+.modalImg img {
+  width: 100%;
+}
 .imgTitle {
   font-size: 6rem;
   text-transform: uppercase;
   text-align: center;
   color: $primary-color;
+  @media(max-width: 668px){
+    font-size: 4rem;
+  }
 }
 .imgText {
   font-size: 1.5em;
   opacity: 0.6;
 }
 button.btn.exit {
-  width: 10%;
+  width: auto;
   padding: 14px;
   border-radius: 0;
   background: transparent;
@@ -285,6 +295,7 @@ button.btn.exit {
   margin-top: 2%;
   font-size: 1.4em;
   text-align: center;
+  padding: 20px;
 }
 .quote-snippet{
   color: #ece7bf;
@@ -332,7 +343,9 @@ button.btn.exit {
   @include parallax-effect();
 }
 .contact-section__wrapper{
-
+  .contact-section__content{
+    padding: 20px;
+  }
   .contact-section__title{
     @include make-fancy-text('Raleway', 5rem, uppercase, #424040);
     text-align: center;
