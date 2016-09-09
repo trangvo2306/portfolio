@@ -366,7 +366,10 @@ footer {
   width: 32px;
   height: 4px;
   border-radius: 1px;
-  background-color: rgba(255, 255, 255, 0.95) !important; }
+  background-color: #2a363b !important; }
+
+.affix .icon-bar {
+  background-color: #fff !important; }
 
 @media (max-width: 1024px) {
   .portfolio-section__wrapper .portfolio-section__gallery .item {
@@ -380,7 +383,7 @@ footer {
     font-size: 7em;
     margin-top: 12px; } }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .about-section__wrapper .fancy-text {
     font-size: 2.5em; }
   .about-section__wrapper #about-section__content--right {
