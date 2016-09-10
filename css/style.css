@@ -4,6 +4,9 @@ h1, h2, h3, h4, h5 {
 body {
   position: relative; }
 
+body, html {
+  overflow-x: hidden; }
+
 .centered {
   text-align: center; }
 
@@ -21,17 +24,15 @@ body {
   letter-spacing: 5px;
   margin: 14px auto;
   font-size: 1.8em;
-  color: #fff; }
+  color: #2A363B; }
   .social-grid span {
     display: inline-block;
     width: 50px;
     height: 50px;
-    background: #2A363B;
     text-align: center; }
     .social-grid span:hover {
-      background: transparent;
-      color: #2A363B;
-      border: 2px solid;
+      background: #2A363B;
+      color: #fff;
       transition: background ease 1s; }
   .social-grid i {
     padding-top: 13px;
@@ -70,7 +71,8 @@ body {
 
 #about-section {
   min-height: 600px;
-  background-image: url("../img/about-bg.jpg"); }
+  background-image: url("../img/about-bg.jpg");
+  background-size: cover; }
 
 #about-section__content--right {
   margin: 6rem auto;
@@ -384,16 +386,32 @@ footer {
     margin-top: 12px; } }
 
 @media (max-width: 414px) {
+  .before-header__left h1 {
+    font-size: 28px; }
+  .social-grid span {
+    width: auto;
+    height: auto; }
+  #about-section {
+    background-size: initial; }
+  .about-section__wrapper .sub-header {
+    font-size: 2rem;
+    padding-top: 0; }
   .about-section__wrapper .fancy-text {
     font-size: 2.5em; }
   .about-section__wrapper #about-section__content--right {
     margin: 2rem auto;
     padding: 3rem; }
+  .education__title {
+    font-size: 2.3em; }
   .cd-horizontal-timeline .events-content .timeline-text {
     padding: 0 !important; }
   .cd-horizontal-timeline .events-content .timeline-img img {
     max-width: 200px !important;
     padding: 0; }
+  .cd-horizontal-timeline .events-content {
+    margin-top: 0 !important; }
+  .cd-horizontal-timeline .events-content .timeline-img img {
+    max-width: 100px !important; }
   .portfolio-section__wrapper .portfolio-section__gallery .item {
     width: 340px;
     height: 250px; }
@@ -405,6 +423,8 @@ footer {
       font-size: 4em;
       margin-top: 46px;
       left: 38px; }
+  .experience-section__text {
+    font-size: 1em; }
   .icon-row {
     font-size: 2em; }
   .blinker {
