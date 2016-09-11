@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 Trang Vo
 
-Porfolio Page Design
+Portfolio Page Design
 
 In Construction....
 
