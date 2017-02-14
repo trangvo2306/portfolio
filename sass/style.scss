@@ -44,9 +44,8 @@ body,html{
        text-align: center;
       &:hover{
           background: $primary-color;
-          color: #fff;
-          //border: 2px solid;
           transition: background ease 1s;
+          a{color: #fff;}
       }
      }
     i {
@@ -297,7 +296,6 @@ button.btn.exit {
   color: #fff;
   margin-top: 2%;
   font-size: 1.4em;
-  text-align: center;
   padding: 20px;
 }
 .quote-snippet{
@@ -397,6 +395,21 @@ button.btn.exit {
       color: rgba(255, 255, 255, 0.69);
       width: 80%;
     }
+  }
+
+  .social-below{
+    text-align: center;
+    margin-top: 5rem;
+  }
+  .social-below span {
+    background: #fff;
+    padding: 15px 35px;
+    font-size: 26px;
+    border-radius: 32px;
+    display: inline-block;
+    min-width: 200px;
+    text-align: center;
+    margin: 0 20px;
   }
 }
 footer{
